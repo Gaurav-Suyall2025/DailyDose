@@ -16,6 +16,9 @@
 
         <!-- Change Action Bar overflow icon (Options Menu button) color -->
         <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -45,16 +48,16 @@
     </style>
 
     <!-- Style for a tab that displays a category name -->
-    <!--<style name="CategoryTab" parent="Widget.Design.TabLayout">
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/color_app_bar_text</item>
         <item name="tabSelectedTextColor">@color/color_app_bar_text</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
-    </style>-->
+    </style>
 
     <!-- Text appearance style for a category tab -->
-  <!--  <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">@color/color_tab_text</item>
-    </style>-->
+    </style>
 
     <!-- Style for title TextView-->
     <style name="TitleTextViewStyle">
